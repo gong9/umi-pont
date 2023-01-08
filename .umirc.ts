@@ -1,6 +1,7 @@
 import { defineConfig } from '@umijs/max';
 
 export default defineConfig({
+  plugins: ['./plugins/pont'],
   antd: {},
   access: {},
   model: {},
